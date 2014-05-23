@@ -7,11 +7,11 @@ from copy import deepcopy
 
 SORT_ORDER = ['Age','d18O','Pb','Sr','DeathYr','Sex','Race']
 ERROR_RANGES = {
-    'Age': 20, # percentage
-    'd18O': 10, # percentage
+    'Age': 20.0, # percentage
+    'd18O': 10.0, # percentage
     'DeathYr': 2, # range
-    'Pb': 3, # percentage
-    'Sr': 1 # percentage
+    'Pb': 3.0, # percentage
+    'Sr': 1.0 # percentage
 }
 
 def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES):
