@@ -4,15 +4,14 @@ import csv
 from copy import deepcopy
 
 # Define defaults
-debugger = True # debug
 
 SORT_ORDER = ['Age','d18O','Pb','Sr','DeathYr','Sex','Race']
 ERROR_RANGES = {
-    'Age': 0.2, # percentage
-    'd18O': 0.1, # percentage
+    'Age': 20, # percentage
+    'd18O': 10, # percentage
     'DeathYr': 2, # range
-    'Pb': 0.03, # percentage
-    'Sr': 0.01 # percentage
+    'Pb': 3, # percentage
+    'Sr': 1 # percentage
 }
 
 def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES):
@@ -46,10 +45,12 @@ def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES):
 
         # For percentage range
         if (key in ['Age','d18O','Pb','Sr']):
-            delta = float(skel[key]) * errorRanges[key]
+            delta = (float(skel[key]) * float(errorRanges[key])) / 100.0
+
         # For absolute range
         elif (key in ['DeathYr']):
-            delta = errorRanges[key]
+            delta = float(errorRanges[key])
+
         # Check if the skel and record data are in the acceptable values
         elif ({skel[key], record[key]} <= acceptableCategories[key]):
             # Any difference in category is a bad fit
@@ -58,13 +59,14 @@ def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES):
             # record unhandled data and don't reject the record
             logAnomaly()
             return False
+
         return (abs(float(skel[key]) - float(record[key])) > delta)
-        
+    
+    # Input data filenames
     skeletonDataName = "skeleton-list.csv"
     patientDataName = "patient-list.csv"
 
     # Initialize dict lists
-
     skeletonData = []
     patientData = []
 
