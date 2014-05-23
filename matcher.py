@@ -4,6 +4,7 @@ import csv
 from copy import deepcopy
 
 # Define defaults
+debugger = True # debug
 
 SORT_ORDER = ['Age','d18O','Pb','Sr','DeathYr','Sex','Race']
 ERROR_RANGES = {
@@ -92,10 +93,13 @@ def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES):
         # Now eliminate records one by one
         for label in sortOrder:
             popcount = 0
-            for (i, row) in enumerate(sk.records):
-                if (isPoorFit(sk.data, row, label)):
+            i = 0
+            while (i < len(sk.records)):
+                if (isPoorFit(sk.data, sk.records[i], label)):
                     sk.records.pop(i)
+                    i = i - 1
                     popcount = popcount + 1
+                i = i + 1
             sk.removed[label] = popcount
             numRemainingRecords = numRemainingRecords - popcount
             sk.remaining[label] = deepcopy(numRemainingRecords)
@@ -119,8 +123,7 @@ def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES):
     remain_fp = open('Remaining_Table.csv', 'w')
     csvRemain = csv.writer(remain_fp)
     for skeleton in Closet:
-        csvRemain.writerow(['Grave Id',skeleton.data['OurNo']])
-        header = skeleton.records[0].keys()
-        csvRemain.writerow(header)
+        csvRemain.writerow(skeleton.data.keys())
+        csvRemain.writerow(skeleton.data.values())
         for record in skeleton.records:
             csvRemain.writerow(record.values())
