@@ -5,10 +5,19 @@ from copy import deepcopy
 
 # Define defaults
 
-SORT_ORDER = ['Age','d18O','Pb','Sr','DeathYr','Sex','Race']
+# Order is followed, though it shouldn't actually affect results
+SORT_ORDER = [
+    'Age',
+    'd18O',
+    'Pb',
+    'Sr',
+    #'DeathYr',
+    'Sex'#,
+    #'Race'
+]
 ERROR_RANGES = {
     'Age': 0.25, # proportion
-    'd18O': 10.0, # percentage
+    'd18O': 0.40, # proportion
     'DeathYr': 4, # range
     'Pb': 0.03**0.5, # log proportion
     'Sr': 0.01**0.5 # log proportion
@@ -43,13 +52,13 @@ def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES):
             if not record[key]:
                 return False
 
-        # For percentage range
+        # For proportional range
         if (key in ['Age','d18O','Pb','Sr']):
-            delta = float(skel[key]) * float(errorRanges[key])
+            delta = abs(float(skel[key]) * float(errorRanges[key]))
 
         # For absolute range
         elif (key in ['DeathYr']):
-            delta = float(errorRanges[key])
+            delta = abs(float(errorRanges[key]))
 
         # Check if the skel and record data are in the acceptable values
         elif ({skel[key], record[key]} <= acceptableCategories[key]):
