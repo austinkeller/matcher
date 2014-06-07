@@ -7,11 +7,11 @@ from copy import deepcopy
 
 SORT_ORDER = ['Age','d18O','Pb','Sr','DeathYr','Sex','Race']
 ERROR_RANGES = {
-    'Age': 20.0, # percentage
+    'Age': 0.25, # proportion
     'd18O': 10.0, # percentage
-    'DeathYr': 2, # range
-    'Pb': 3.0, # percentage
-    'Sr': 1.0 # percentage
+    'DeathYr': 4, # range
+    'Pb': 0.03**0.5, # log proportion
+    'Sr': 0.01**0.5 # log proportion
 }
 
 def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES):
@@ -45,7 +45,7 @@ def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES):
 
         # For percentage range
         if (key in ['Age','d18O','Pb','Sr']):
-            delta = (float(skel[key]) * float(errorRanges[key])) / 100.0
+            delta = float(skel[key]) * float(errorRanges[key])
 
         # For absolute range
         elif (key in ['DeathYr']):
@@ -55,6 +55,7 @@ def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES):
         elif ({skel[key], record[key]} <= acceptableCategories[key]):
             # Any difference in category is a bad fit
             return skel[key] != record[key]
+        
         else:
             # record unhandled data and don't reject the record
             logAnomaly()
@@ -114,6 +115,7 @@ def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES):
     for label in sortOrder:
         header.extend([label, 'NoRecs'])
     csvCounts.writerow(header)
+
     for skeleton in Closet:
         row = [skeleton.data['OurNo']]
         for label in sortOrder:
