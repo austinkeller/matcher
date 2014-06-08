@@ -11,9 +11,9 @@ SORT_ORDER = [
     'd18O',
     'Pb',
     'Sr',
-    #'DeathYr',
-    'Sex'#,
-    #'Race'
+    'DeathYr',
+    'Sex',
+    'Race'
 ]
 ERROR_RANGES = {
     'Age': 0.25, # proportion
@@ -21,6 +21,14 @@ ERROR_RANGES = {
     'DeathYr': 4, # range
     'Pb': 0.03**0.5, # log proportion
     'Sr': 0.01**0.5 # log proportion
+}
+
+ERROR_TYPES = {
+    'Age': 'proportion',
+    'd18O': 'proportion',
+    'DeathYr': 'range',
+    'Pb': 'proportion',
+    'Sr': 'proportion',
 }
 
 def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES):
