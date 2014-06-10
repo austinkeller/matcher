@@ -31,7 +31,7 @@ ERROR_TYPES = {
     'Sr': 'proportion',
 }
 
-def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES):
+def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES,outDir="./"):
 
     acceptableCategories = {
         'Race': {'C','B','H'},
@@ -126,7 +126,7 @@ def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES):
         Closet.append(sk)
 
     # Generate counts table
-    counts_fp = open('Counts_Table.csv', 'w')
+    counts_fp = open(outDir + '/Counts_Table.csv', 'w')
     csvCounts = csv.writer(counts_fp)
     header = ['Grave ID']
     for label in sortOrder:
@@ -141,7 +141,7 @@ def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES):
         csvCounts.writerow(row)
     
     # Generate table of remaining records
-    remain_fp = open('Remaining_Table.csv', 'w')
+    remain_fp = open(outDir + '/Remaining_Table.csv', 'w')
     csvRemain = csv.writer(remain_fp)
     for skeleton in Closet:
         csvRemain.writerow(skeleton.data.keys())

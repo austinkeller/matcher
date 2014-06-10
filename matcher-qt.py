@@ -15,12 +15,12 @@ dialog.setWindowTitle("Matcher")
 button = QtGui.QPushButton("Go")
 
 # Select file for output
-fileOutputLayout.addWidget(QtGui.QLabel("Select Output File: "))
+fileOutputLayout.addWidget(QtGui.QLabel("Select Output Folder: "))
 fileOutputText = QtGui.QLineEdit()
 fileOutputLayout.addWidget(fileOutputText)
 fileOutputButton = QtGui.QPushButton("...")
 fileOutputLayout.addWidget(fileOutputButton)
-fileOutputText.setDisabled(True) # TODO: implement output file selection
+selectedDir = ""
 
 # Classifiers 
 class Classifier:
@@ -61,6 +61,12 @@ mainLayout.addWidget(button)
 
 @QtCore.pyqtSlot()
 def clicked_go():
+    if (selectedDir is ""):
+        msgBox = QtGui.QMessageBox()
+        msgBox.setText("Please select output folder.")
+        msgBox.setWindowTitle(" ")
+        msgBox.exec_()
+        return
     sortOrder = []
     errorRanges = {}
     for key in classifiers:
@@ -76,8 +82,16 @@ def clicked_go():
     print sortOrder
     print errorRanges
     print("Matching...")
-    matcher.matcher(sortOrder=sortOrder,errorRanges=errorRanges)
+    matcher.matcher(sortOrder=sortOrder,errorRanges=errorRanges,outDir=selectedDir)
     print("Done!")
+
+@QtCore.pyqtSlot()
+def clicked_select_file():
+    global selectedDir
+    selectedDir = QtGui.QFileDialog.getExistingDirectory(None, QtCore.QString("Select Save Directory"), QtCore.QString("/home"), QtGui.QFileDialog.ShowDirsOnly | QtGui.QFileDialog.DontResolveSymlinks)
+    fileOutputText.setText(selectedDir)
+
+fileOutputButton.clicked.connect(clicked_select_file)
 
 button.clicked.connect(clicked_go)
 
