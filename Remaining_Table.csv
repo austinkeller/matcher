@@ -1,5 +1,6 @@
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-6.304528362,0.7096453,A-1,,,M,,8,C,90,1,,50,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1842,Lake,0,-6,0.711,123,1886,54,M,1.22,8,C,86,88,AR,54,1832
 1847,Weld,0,-6.8,0.712,245,1891,54,M,1.27,8,C,91,195,CT,54,1837
 1859,Arapahoe,1,-6.8,0.712,345,1893,44,M,1.25,8,C,94,285,CT,45,1849
@@ -97,6 +98,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1864,Arapahoe,1,-6.7889,0.711,317,1893,39,M,1.175,7,C,94,280,Wales,40,1854
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.2048344393,,-11.0035182585,,A-2,,,,,2,C,90,2,,12,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1887,Arapahoe,3,-9,0.714,162,1888,11,M,1.18,3,C,91,173,CO,14,1877
 1891,Mesa,0,-9,0.714,266,1891,10,F,1.18,2,C,91,204,CO,10,1881
 1894,Elbert,1,-9,0.714,291,1892,8,F,1.18,2,C,93,242,CO,9,1884
@@ -106,6 +108,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 ,Arapahoe,1,-8.0454,0.71,241,1890,,F,1.17,,C,91,192,Germany,,
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,,,A-4,,,M,,7,,90,3,,42,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1870,Arapahoe,8,-6,0.711,105,1886,26,M,1.23,7,C,94,273,AR,34,1860
 1859,Arapahoe,1,-6.8,0.712,345,1893,44,M,1.25,8,C,94,285,CT,45,1849
 1858,State Pen,1,-5.7,0.711,98,1885,37,M,1.2,7,C,86,77,GA,38,1848
@@ -221,6 +224,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 ,,,,,A-7,,,F,,7,H,88,4,,40,
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-6.2797500198,0.7168931,A-10,,,F,,8,,88,5,,43,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1864,Arapahoe,0,-6,0.711,176,1889,35,F,1.24,7,C,89,139,AR,35,1854
 1867,Pitkin,2,-6.8,0.71,175,1889,32,F,1.28,7,C,91,174,IA,34,1857
 1856,Mesa,0,-7,0.714,69,1884,38,F,1.23,7,C,84,47,ME,38,1846
@@ -239,6 +243,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1850,Arapahoe,1,-6.5376,0.712,172,1889,49,F,1.175,8,C,90,148,Ireland,50,1840
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,,,A-11,,,M,,8,,86,6,,47,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1842,Lake,0,-6,0.711,123,1886,54,M,1.22,8,C,86,88,AR,54,1832
 1858,State Pen,1,-5.7,0.711,98,1885,37,M,1.2,7,C,86,77,GA,38,1848
 1846,Gilpin,7,-6.6,0.71,8,1879,43,M,1.32,8,C,86,68,IL,50,1836
@@ -319,6 +324,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1855,Arapahoe,1,-8.0454,0.716,83,1885,40,M,1.175,7,C,86,71,Switzerland,41,1845
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.2822049115,,-7.5375658,,A-21,,,M,,5,,86,7,,22,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1869,Boulder,0,-6.8,0.71,126,1886,27,M,1.28,5,C,86,89,IA,27,1859
 1878,Washington,1,-6.6,0.71,158,1888,20,M,1.24,4,C,89,134,IL,21,1868
 1872,Jefferson,6,-6.6,0.712,12,1879,17,M,1.25,5,C,85,52,IN,23,1862
@@ -333,9 +339,11 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 ,Arapahoe,1,-6.5376,0.712,197,1889,,M,1.175,,C,90,155,Ireland,,
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,,,B-2,,,M,,8,H,86,8,,47,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1846,Las Animas,0,-6.5376,0.709,108,1886,50,M,1.19,8,H,86,81,Mexico,50,1836
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.181358798,,-7.3382746377,,B-3,,,M,,7,C,88,9,,36,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1858,State Pen,1,-5.7,0.711,98,1885,37,M,1.2,7,C,86,77,GA,38,1848
 1869,Boulder,0,-6.8,0.71,126,1886,27,M,1.28,5,C,86,89,IA,27,1859
 1862,Gunnison,1,-6.8,0.71,252,1891,39,M,1.28,7,C,92,214,IA,40,1852
@@ -419,6 +427,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1869,Lake,4,-8.0454,0.716,58,1883,24,M,1.175,6,C,87,92,Switzerland,28,1859
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.1913996358,,-5.8894614228,,B-5,,,M,,7,,88,10,,41,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1858,State Pen,1,-5.7,0.711,98,1885,37,M,1.2,7,C,86,77,GA,38,1848
 1862,Gunnison,1,-6.8,0.71,252,1891,39,M,1.28,7,C,92,214,IA,40,1852
 1846,Gilpin,7,-6.6,0.71,8,1879,43,M,1.32,8,C,86,68,IL,50,1836
@@ -505,6 +514,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1855,Arapahoe,1,-8.0454,0.716,83,1885,40,M,1.175,7,C,86,71,Switzerland,41,1845
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.2479457953,,-9.2726517985,,B-12,,,F,,5,C,90,11,,26,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1870,Douglass,1,-5.7,0.711,227,1890,30,F,1.19,6,C,91,185,AL,31,1860
 1879,Boulder,4,-6,0.711,111,1886,17,F,1.23,4,C,90,145,AR,21,1869
 1880,Arapahoe,0,-6.8,0.712,335,1893,23,F,1.23,5,C,93,268,CT,23,1870
@@ -529,6 +539,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1870,Arapahoe,1,-9.0506,0.72,240,1890,30,F,1.175,6,C,91,191,Sweden,31,1860
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-7.3830731309,0.71177015,B-15,,,M,,7,C,90,12,,35,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1870,Arapahoe,8,-6,0.711,105,1886,26,M,1.23,7,C,94,273,AR,34,1860
 1858,State Pen,1,-5.7,0.711,98,1885,37,M,1.2,7,C,86,77,GA,38,1848
 1862,Gilpin,0,-5.7,0.711,314,1893,41,M,1.2,7,C,93,256,GA,41,1852
@@ -619,9 +630,11 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1864,Arapahoe,1,-6.7889,0.711,317,1893,39,M,1.175,7,C,94,280,Wales,40,1854
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.2287111303,,-6.6818454757,0.7086633,B-18,,,F,,6,H,92,13,,30,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1877,Las Animas,0,-9,0.714,310,1893,26,F,1.18,5,H,93,254,CO,26,1867
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-6.2395460417,0.7092478,C-1,,,M,,5,,90,14,,26,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1869,Boulder,0,-6.8,0.71,126,1886,27,M,1.28,5,C,86,89,IA,27,1859
 1878,Mineral,0,-6.8,0.71,385,1894,26,M,1.28,5,C,94,309,IA,26,1868
 1867,Arapahoe,1,-6.6,0.71,97,1885,28,M,1.26,6,C,86,76,IL,29,1857
@@ -650,6 +663,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1869,Lake,4,-8.0454,0.716,58,1883,24,M,1.175,6,C,87,92,Switzerland,28,1859
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.2594802903,,,,C-2,,,M,,7,C,90,15,,42,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1870,Arapahoe,8,-6,0.711,105,1886,26,M,1.23,7,C,94,273,AR,34,1860
 1859,Arapahoe,1,-6.8,0.712,345,1893,44,M,1.25,8,C,94,285,CT,45,1849
 1858,State Pen,1,-5.7,0.711,98,1885,37,M,1.2,7,C,86,77,GA,38,1848
@@ -761,6 +775,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1864,Arapahoe,1,-6.7889,0.711,317,1893,39,M,1.175,7,C,94,280,Wales,40,1854
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.2422562288,,-6.8495024258,,C-12,,,F,,8,,92,16,,52,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1853,Arapahoe,0,-6,0.711,300,1893,50,F,1.22,8,C,93,249,AR,50,1843
 1847,Pueblo,1,-5.7,0.711,292,1892,55,F,1.2,8,C,93,243,GA,56,1837
 1857,Arapahoe,2,-6.6,0.712,376,1894,47,F,1.25,8,C,96,358,IN,49,1847
@@ -785,6 +800,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1856,Phillips,5,-9.0506,0.72,279,1891,45,F,1.175,8,C,96,351,Sweden,50,1846
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-6.6087392275,0.7099116,C-19,,,M,,7,C,92,17,,42,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1870,Arapahoe,8,-6,0.711,105,1886,26,M,1.23,7,C,94,273,AR,34,1860
 1859,Arapahoe,1,-6.8,0.712,345,1893,44,M,1.25,8,C,94,285,CT,45,1849
 1870,Lake,0,-6.8,0.712,396,1895,35,M,1.22,7,C,95,338,CT,35,1860
@@ -920,6 +936,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 ,,,,,C-21,,,F,,7,B,92,18,,37,
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.2312830646,,-7.6988207757,0.7101391,C-22,,,F,,8,C,92,19,,48,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1853,Arapahoe,0,-6,0.711,300,1893,50,F,1.22,8,C,93,249,AR,50,1843
 1847,Pueblo,1,-5.7,0.711,292,1892,55,F,1.2,8,C,93,243,GA,56,1837
 1857,Arapahoe,2,-6.6,0.712,376,1894,47,F,1.25,8,C,96,358,IN,49,1847
@@ -945,6 +962,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1856,Phillips,5,-9.0506,0.72,279,1891,45,F,1.175,8,C,96,351,Sweden,50,1846
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-8.5278369234,0.7088305,C-23,,,F,,6,C,92,20,,28,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1870,Douglass,1,-5.7,0.711,227,1890,30,F,1.19,6,C,91,185,AL,31,1860
 1864,Arapahoe,0,-6,0.711,176,1889,35,F,1.24,7,C,89,139,AR,35,1854
 1879,Boulder,4,-6,0.711,111,1886,17,F,1.23,4,C,90,145,AR,21,1869
@@ -973,6 +991,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1870,Arapahoe,1,-9.0506,0.72,240,1890,30,F,1.175,6,C,91,191,Sweden,31,1860
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,,,D-3,,,M,,7,,92,21,,38,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1870,Arapahoe,8,-6,0.711,105,1886,26,M,1.23,7,C,94,273,AR,34,1860
 1871,Las Animas,3,-9,0.714,287,1892,31,M,1.18,7,H,95,320,CO,34,1861
 1859,Arapahoe,1,-6.8,0.712,345,1893,44,M,1.25,8,C,94,285,CT,45,1849
@@ -1095,6 +1114,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1864,Arapahoe,1,-6.7889,0.711,317,1893,39,M,1.175,7,C,94,280,Wales,40,1854
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-6.5749884279,0.7098378,D-11,,,M,,6,C,94,22,,29,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1870,Arapahoe,8,-6,0.711,105,1886,26,M,1.23,7,C,94,273,AR,34,1860
 1870,Lake,0,-6.8,0.712,396,1895,35,M,1.22,7,C,95,338,CT,35,1860
 1878,Mineral,0,-6.8,0.71,385,1894,26,M,1.28,5,C,94,309,IA,26,1868
@@ -1162,6 +1182,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1871,Lake,0,-9.0506,0.72,395,1895,34,M,1.175,7,C,95,337,Sweden,34,1861
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.229109227,,-10.6782695384,,D-13,,,M,,6,,94,23,,27,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1875,Pueblo,0,-9,0.714,301,1893,28,M,1.18,6,H,93,250,CO,28,1865
 1878,Mineral,0,-6.8,0.71,385,1894,26,M,1.28,5,C,94,309,IA,26,1868
 1872,Arapahoe,0,-6.8,0.71,422,1895,33,M,1.28,7,C,95,344,IA,33,1862
@@ -1206,6 +1227,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1876,Jefferson,0,-9.0506,0.72,330,1893,27,M,1.175,5,C,93,264,Sweden,27,1866
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,,,D-14,,,M,,7,,94,24,,38,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1869,Arapahoe,0,-5.7,0.711,524,1898,39,M,1.19,7,C,98,499,AL,39,1859
 1870,Arapahoe,8,-6,0.711,105,1886,26,M,1.23,7,C,94,273,AR,34,1860
 1871,Las Animas,3,-9,0.714,287,1892,31,M,1.18,7,H,95,320,CO,34,1861
@@ -1363,6 +1385,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1867,Arapahoe,0,-6.7889,0.711,510,1897,40,M,1.175,7,C,97,453,Wales,40,1857
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.2267869774,,-6.7278244092,0.7081624,D-15,,,M,,9,C,94,25,,59,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1859,Pueblo,4,-5.7,0.711,311,1893,44,M,1.2,8,B?,97,412,AL,48,1849
 1847,Weld,0,-6.8,0.712,245,1891,54,M,1.27,8,C,91,195,CT,54,1837
 1859,Arapahoe,1,-6.8,0.712,345,1893,44,M,1.25,8,C,94,285,CT,45,1849
@@ -1483,6 +1506,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1852,Lake,1,-6.7889,0.711,289,1892,50,M,1.175,8,C,93,241,Wales,51,1842
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-5.8766358538,0.7092441,E-1,,,M,,6,C,96,26,,29,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1870,Arapahoe,8,-6,0.711,105,1886,26,M,1.23,7,C,94,273,AR,34,1860
 1870,Lake,0,-6.8,0.712,396,1895,35,M,1.22,7,C,95,338,CT,35,1860
 1878,Mineral,0,-6.8,0.71,385,1894,26,M,1.28,5,C,94,309,IA,26,1868
@@ -1547,6 +1571,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1887,Fremont,0,-8.0454,0.716,554,1899,22,M,1.175,5,C,99,552,Switzerland,22,1877
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-5.8233932894,0.7092925,E-2,,,F,,8,,96,27,,50,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1853,Arapahoe,0,-6,0.711,300,1893,50,F,1.22,8,C,93,249,AR,50,1843
 1847,Pueblo,1,-5.7,0.711,292,1892,55,F,1.2,8,C,93,243,GA,56,1837
 1861,El Paso,1,-6.8,0.71,474,1896,45,F,1.28,8,C,97,436,IA,46,1851
@@ -1573,6 +1598,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1857,Boulder,2,-6.7889,0.711,482,1896,49,F,1.175,8,C,98,480,Wales,51,1847
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-5.3997028953,0.7096964,E-3,,,M,,8,,96,28,,43,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1859,Pueblo,4,-5.7,0.711,311,1893,44,M,1.2,8,B?,97,412,AL,48,1849
 1869,Arapahoe,0,-5.7,0.711,524,1898,39,M,1.19,7,C,98,499,AL,39,1859
 1870,Arapahoe,8,-6,0.711,105,1886,26,M,1.23,7,C,94,273,AR,34,1860
@@ -1727,17 +1753,20 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1867,Arapahoe,0,-6.7889,0.711,510,1897,40,M,1.175,7,C,97,453,Wales,40,1857
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.2218010867,,-7.9792961326,0.708708,E-4,,,M,,7,H,96,29,,34,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1875,Pueblo,0,-9,0.714,301,1893,28,M,1.18,6,H,93,250,CO,28,1865
 1871,Las Animas,3,-9,0.714,287,1892,31,M,1.18,7,H,95,320,CO,34,1861
 1866,Arapahoe,0,-6,0.709,316,1893,37,M,1.21,7,B?,93,258,LA,37,1856
 1862,Pueblo,0,-7.5,0.71,368,1894,42,M,1.19,7,H,94,300,NM,42,1852
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-6.0081088055,,E-6,,,F,,5,C,96,30,,22,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1880,Arapahoe,0,-6.8,0.712,335,1893,23,F,1.23,5,C,93,268,CT,23,1870
 1876,Boulder,0,-6.8,0.711,296,1893,27,F,1.23,5,C,93,246,KS,27,1866
 1879,Arapahoe,0,-8.2967,0.713,340,1893,24,F,1.17,5,C,93,271,Austria,24,1869
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,,,E-16,,,M,,8,C,96,31,,48,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1859,Pueblo,4,-5.7,0.711,311,1893,44,M,1.2,8,B?,97,412,AL,48,1849
 1869,Arapahoe,0,-5.7,0.711,524,1898,39,M,1.19,7,C,98,499,AL,39,1859
 1859,Arapahoe,1,-6.8,0.712,345,1893,44,M,1.25,8,C,94,285,CT,45,1849
@@ -1914,11 +1943,13 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1867,Arapahoe,0,-6.7889,0.711,510,1897,40,M,1.175,7,C,97,453,Wales,40,1857
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.2689219529,,-6.0519262494,,E-17,,,M,,7,B,96,32,,38,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1866,Arapahoe,0,-6,0.709,316,1893,37,M,1.21,7,B?,93,258,LA,37,1856
 1876,Arapahoe,0,-7,0.712,560,1899,33,M,1.25,7,B,99,558,MI,33,1866
 1866,Lake,1,-6,0.711,531,1898,42,M,1.23,8,B,99,532,NC,43,1856
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-7.0250972243,0.711936,E-19,,,M,,7,C,96,33,,40,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1859,Pueblo,4,-5.7,0.711,311,1893,44,M,1.2,8,B?,97,412,AL,48,1849
 1869,Arapahoe,0,-5.7,0.711,524,1898,39,M,1.19,7,C,98,499,AL,39,1859
 1870,Arapahoe,8,-6,0.711,105,1886,26,M,1.23,7,C,94,273,AR,34,1860
@@ -2096,6 +2127,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1867,Arapahoe,0,-6.7889,0.711,510,1897,40,M,1.175,7,C,97,453,Wales,40,1857
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.2216541833,,-6.0084749059,,F-1a,,,F,,4,C,94,34,,19,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1879,Boulder,4,-6,0.711,111,1886,17,F,1.23,4,C,90,145,AR,21,1869
 1880,Arapahoe,0,-6.8,0.712,335,1893,23,F,1.23,5,C,93,268,CT,23,1870
 1885,Arapahoe,0,-6.8,0.71,224,1890,15,F,1.28,3,C,90,168,IA,15,1875
@@ -2104,6 +2136,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 ,Arapahoe,1,-8.0454,0.71,241,1890,,F,1.17,,C,91,192,Germany,,
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-6.4038128482,0.7112307,F-2,,,F,,8,,94,35,,43,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1853,Arapahoe,0,-6,0.711,300,1893,50,F,1.22,8,C,93,249,AR,50,1843
 1867,Pitkin,2,-6.8,0.71,175,1889,32,F,1.28,7,C,91,174,IA,34,1857
 1861,El Paso,1,-6.8,0.71,474,1896,45,F,1.28,8,C,97,436,IA,46,1851
@@ -2137,10 +2170,12 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1857,Boulder,2,-6.7889,0.711,482,1896,49,F,1.175,8,C,98,480,Wales,51,1847
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.1819234337,,-7.8401971277,,F-4,,,M,,7,B,94,36,,41,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1859,Pueblo,4,-5.7,0.711,311,1893,44,M,1.2,8,B?,97,412,AL,48,1849
 1866,Arapahoe,0,-6,0.709,316,1893,37,M,1.21,7,B?,93,258,LA,37,1856
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.2581124256,,-5.7005453159,0.70913924,F-5,,,F,,7,C,96,37,,35,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,Garfield,,-6.8,0.71,216,1890,30,F,,6,C,,560,IA,30,
 1871,Arapahoe,1,-6.6,0.712,282,1891,30,F,1.25,6,C,92,224,IN,31,1861
 1876,Boulder,0,-6.8,0.711,296,1893,27,F,1.23,5,C,93,246,KS,27,1866
@@ -2163,6 +2198,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1873,Garfield,1,-7.5428,0.708,480,1896,33,F,1.17,7,C,97,439,Italy,34,1863
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-6.5544040783,0.7112416,F-7,,,M,,7,C,96,38,,40,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1859,Pueblo,4,-5.7,0.711,311,1893,44,M,1.2,8,B?,97,412,AL,48,1849
 1869,Arapahoe,0,-5.7,0.711,524,1898,39,M,1.19,7,C,98,499,AL,39,1859
 1870,Arapahoe,8,-6,0.711,105,1886,26,M,1.23,7,C,94,273,AR,34,1860
@@ -2338,6 +2374,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1867,Arapahoe,0,-6.7889,0.711,510,1897,40,M,1.175,7,C,97,453,Wales,40,1857
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.2240664165,,,,F-9,,,M,,8,C,96,39,,52,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1859,Pueblo,4,-5.7,0.711,311,1893,44,M,1.2,8,B?,97,412,AL,48,1849
 1869,Arapahoe,0,-5.7,0.711,524,1898,39,M,1.19,7,C,98,499,AL,39,1859
 1859,Arapahoe,1,-6.8,0.712,345,1893,44,M,1.25,8,C,94,285,CT,45,1849
@@ -2499,9 +2536,11 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1867,Arapahoe,0,-6.7889,0.711,510,1897,40,M,1.175,7,C,97,453,Wales,40,1857
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,1.1932857834,,-7.3515305127,,F-13,,,F,,8,B,98,40,,50,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,El Paso,1,,,540,1898,,F,,,B,99,538,,,
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-7.4070840206,0.7122306,F-17,,,M,,8,C,98,41,,44,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1859,Pueblo,4,-5.7,0.711,311,1893,44,M,1.2,8,B?,97,412,AL,48,1849
 1869,Arapahoe,0,-5.7,0.711,524,1898,39,M,1.19,7,C,98,499,AL,39,1859
 1870,Arapahoe,8,-6,0.711,105,1886,26,M,1.23,7,C,94,273,AR,34,1860
@@ -2659,6 +2698,7 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1867,Arapahoe,0,-6.7889,0.711,510,1897,40,M,1.175,7,C,97,453,Wales,40,1857
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-7.7767837433,0.7105498,F-19,,,M,,7,,98,42,,42,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1859,Pueblo,4,-5.7,0.711,311,1893,44,M,1.2,8,B?,97,412,AL,48,1849
 1869,Arapahoe,0,-5.7,0.711,524,1898,39,M,1.19,7,C,98,499,AL,39,1859
 1870,Arapahoe,8,-6,0.711,105,1886,26,M,1.23,7,C,94,273,AR,34,1860
@@ -2815,4 +2855,5 @@ ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,Deat
 1867,Arapahoe,0,-6.7889,0.711,510,1897,40,M,1.175,7,C,97,453,Wales,40,1857
 ToothYr,Pb,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,County,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 ,,,-8.2083469747,0.7080746,F-20,,,M,,6,H,98,43,,29,
+ToothYr,County,CMHIYrs,d18O,Sr,OurNo,YearAdmit,AdmitAge,Sex,Pb,AgeCode,Race,DeathYr,LineNo,BirthLoc,Age,BirthYr
 1871,Las Animas,3,-9,0.714,287,1892,31,M,1.18,7,H,95,320,CO,34,1861

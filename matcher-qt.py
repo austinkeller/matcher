@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import sys
+import textwrap
 from PyQt4 import QtGui
 from PyQt4 import QtCore
 import matcher
@@ -13,6 +14,15 @@ dialog = QtGui.QDialog()
 dialog.setLayout(mainLayout)
 dialog.setWindowTitle("Matcher")
 button = QtGui.QPushButton("Go")
+helpButton = QtGui.QPushButton("Help")
+helpLayout = QtGui.QVBoxLayout()
+helpDialog = QtGui.QDialog()
+safeString = ', '.join(matcher.safe_list)
+helpLabel = QtGui.QLabel(textwrap.fill(
+    "The error function is the range (+/-) in which patient records are included and all records outside this range are excluded. To define the error function used for each variable, you may use numbers, any basic math functions (+, -, *, /, or **), and the classifier variable itself (represented by 'x' in the function). Additionally, the following python math functions may be used: \n" + safeString,79))
+helpDialog.setLayout(helpLayout)
+helpDialog.setWindowTitle("Matcher Help")
+helpLayout.addWidget(helpLabel)
 
 # Select file for output
 fileOutputLayout.addWidget(QtGui.QLabel("Select Output Folder: "))
@@ -32,12 +42,10 @@ class Classifier:
 
 labelLabel = QtGui.QLabel("Classifier")
 checkBoxLabel = QtGui.QLabel("Use?")
-errorValueLabel = QtGui.QLabel("Error Value")
-errorTypeLabel = QtGui.QLabel("Error Type")
+errorValueLabel = QtGui.QLabel("Error Function")
 classifiersLayout.addWidget(labelLabel,0,0)
 classifiersLayout.addWidget(checkBoxLabel,0,1)
 classifiersLayout.addWidget(errorValueLabel,0,2)
-classifiersLayout.addWidget(errorTypeLabel,0,3)
 classifiersLayout.setAlignment(QtCore.Qt.AlignBottom)
 
 classifiers = {}
@@ -48,14 +56,11 @@ for i,key in enumerate(matcher.SORT_ORDER):
     classifiersLayout.addWidget(classifiers[key].checkBox, i+1, 1)
     classifiersLayout.addWidget(classifiers[key].lineEdit, i+1, 2)
     try:
-        classifiers[key].lineEdit.setText(str(matcher.ERROR_RANGES[key]))
+        classifiers[key].lineEdit.setText(str(matcher.ERROR_FUNCTIONS[key]))
     except KeyError:
         classifiers[key].lineEdit.setDisabled(True)
-    try:
-        classifiersLayout.addWidget(QtGui.QLabel(matcher.ERROR_TYPES[key]), i+1, 3)
-    except KeyError:
-        classifiersLayout.addWidget(QtGui.QLabel(''), i+1, 3)
 mainLayout.addLayout(fileOutputLayout)
+mainLayout.addWidget(helpButton)
 mainLayout.addLayout(classifiersLayout)
 mainLayout.addWidget(button)
 
@@ -91,9 +96,17 @@ def clicked_select_file():
     selectedDir = QtGui.QFileDialog.getExistingDirectory(None, QtCore.QString("Select Save Directory"), QtCore.QString("/home"), QtGui.QFileDialog.ShowDirsOnly | QtGui.QFileDialog.DontResolveSymlinks)
     fileOutputText.setText(selectedDir)
 
+@QtCore.pyqtSlot()
+def clicked_help():
+    helpDialog.show()
+
 fileOutputButton.clicked.connect(clicked_select_file)
+
+helpButton.clicked.connect(clicked_help)
 
 button.clicked.connect(clicked_go)
 
 dialog.show()
 sys.exit(app.exec_())
+
+    

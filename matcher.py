@@ -2,6 +2,7 @@
 
 import csv
 from copy import deepcopy
+from math import *
 
 # Define defaults
 
@@ -23,16 +24,25 @@ ERROR_RANGES = {
     'Sr': 0.01**0.5 # log proportion
 }
 
-ERROR_TYPES = {
-    'Age': 'proportion',
-    'd18O': 'proportion',
-    'DeathYr': 'range',
-    'Pb': 'proportion',
-    'Sr': 'proportion',
+ERROR_FUNCTIONS = {
+    'Age': "x * 0.25", # proportion
+    'd18O': "x * 0.40", # proportion
+    'DeathYr': "4", # range
+    'Pb': "x * 0.03**0.5", # log proportion
+    'Sr': "x * 0.01**0.5" # log proportion
 }
 
-def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES,outDir="./"):
+# This list includes user-accessible functions for the error functions
+safe_list = ['math','acos', 'asin', 'atan', 'atan2', 'ceil', 'cos', 'cosh', 'de grees', 'e', 'exp', 'fabs', 'floor', 'fmod', 'frexp', 'hypot', 'ldexp', 'log', 'log10', 'modf', 'pi', 'pow', 'radians', 'sin', 'sinh', 'sqrt', 'tan', 'tanh']
 
+def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES, errorFunctions=ERROR_FUNCTIONS, outDir="./"):
+
+    # Use the list to filter the local namespace
+    safe_dict = dict([ (k, locals().get(k, None)) for k in safe_list ])
+    # Add any needed builtins back in
+    safe_dict['abs'] = abs
+    
+    
     acceptableCategories = {
         'Race': {'C','B','H'},
         'Sex': {'M','F'} 
@@ -60,13 +70,10 @@ def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES,outDir="./"):
             if not record[key]:
                 return False
 
-        # For proportional range
-        if (key in ['Age','d18O','Pb','Sr']):
-            delta = abs(float(skel[key]) * float(errorRanges[key]))
-
-        # For absolute range
-        elif (key in ['DeathYr']):
-            delta = abs(float(errorRanges[key]))
+        # Use error functions
+        if (key in ['Age','d18O','Pb','Sr','DeathYr']):
+            safe_dict['x'] = float(skel[key])
+            delta = abs(float(eval(errorFunctions[key],{"__builtins__":None},safe_dict)))
 
         # Check if the skel and record data are in the acceptable values
         elif ({skel[key], record[key]} <= acceptableCategories[key]):
@@ -146,5 +153,7 @@ def matcher(sortOrder=SORT_ORDER, errorRanges=ERROR_RANGES,outDir="./"):
     for skeleton in Closet:
         csvRemain.writerow(skeleton.data.keys())
         csvRemain.writerow(skeleton.data.values())
-        for record in skeleton.records:
+        for recordNum, record in enumerate(skeleton.records):
+            if (recordNum == 0):
+                csvRemain.writerow(record.keys())
             csvRemain.writerow(record.values())
