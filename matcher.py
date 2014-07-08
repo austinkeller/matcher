@@ -16,13 +16,6 @@ SORT_ORDER = [
     'Sex',
     'Race'
 ]
-ERROR_RANGES = {
-    'Age': 0.25, # proportion
-    'd18O': 0.40, # proportion
-    'DeathYr': 4, # range
-    'Pb': 0.03**0.5, # log proportion
-    'Sr': 0.01**0.5 # log proportion
-}
 
 ERROR_FUNCTIONS = {
     'Age': "x * 0.25", # proportion
