@@ -73,21 +73,21 @@ def clicked_go():
         msgBox.exec_()
         return
     sortOrder = []
-    errorRanges = {}
+    errorFunctions = {}
     for key in classifiers:
         if (classifiers[key].checkBox.isChecked()):
             sortOrder.append(str(classifiers[key].label.text()))
             try:
-                errorRanges[key] = float(classifiers[key].lineEdit.text())
+                errorFunctions[key] = str(classifiers[key].lineEdit.text())
             except ValueError:
                 try:
-                    errorRanges[key] = matcher.ERROR_RANGES[key]
+                    errorFunctions[key] = matcher.ERROR_FUNCTIONS[key]
                 except KeyError:
                     pass
     print sortOrder
-    print errorRanges
+    print errorFunctions
     print("Matching...")
-    matcher.matcher(sortOrder=sortOrder,errorRanges=errorRanges,outDir=selectedDir)
+    matcher.matcher(sortOrder=sortOrder,errorFunctions=errorFunctions,outDir=selectedDir)
     print("Done!")
 
 @QtCore.pyqtSlot()
