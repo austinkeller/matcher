@@ -21,28 +21,31 @@ ERROR_FUNCTIONS = {
     'Age': "x * 0.25", # proportion
     'd18O': "x * 0.40", # proportion
     'DeathYr': "4", # range
-    'Pb': "x * 0.03**0.5", # log proportion
-    'Sr': "x * 0.01**0.5" # log proportion
+    'Pb': "(x * 0.03)**0.5", # log proportion
+    'Sr': "(x * 0.01)**0.5" # log proportion
 }
+
+ACCEPTABLE_CATEGORIES = {
+        'Race': {'C','B','H'},
+        'Sex': {'M','F'} 
+}
+
+INDIVIDUAL_INPUT = "skeleton-list.csv" # individual filename default
+
+RECORD_INPUT = "patient-list.csv" # record filename default
 
 # This list includes user-accessible functions for the error functions
 safe_list = ['math','acos', 'asin', 'atan', 'atan2', 'ceil', 'cos', 'cosh', 'de grees', 'e', 'exp', 'fabs', 'floor', 'fmod', 'frexp', 'hypot', 'ldexp', 'log', 'log10', 'modf', 'pi', 'pow', 'radians', 'sin', 'sinh', 'sqrt', 'tan', 'tanh']
 
-def matcher(sortOrder=SORT_ORDER, errorFunctions=ERROR_FUNCTIONS, outDir="./"):
+def matcher(sortOrder=SORT_ORDER, errorFunctions=ERROR_FUNCTIONS, individualInput=INDIVIDUAL_INPUT, recordInput=RECORD_INPUT, acceptableCategories=ACCEPTABLE_CATEGORIES, outDir="./"):
 
     # Use the list to filter the local namespace
     safe_dict = dict([ (k, locals().get(k, None)) for k in safe_list ])
     # Add any needed builtins back in
     safe_dict['abs'] = abs
-    
-    
-    acceptableCategories = {
-        'Race': {'C','B','H'},
-        'Sex': {'M','F'} 
-    }
 
     # Record anomalous data that needs to be handled or cleaned up
-    log_fp = open('anomaly_log.csv', 'w')
+    log_fp = open(outDir + '/anomaly_log.csv', 'w')
     anomalyLog = csv.writer(log_fp)
 
     # return True when record is outside of acceptable range
@@ -64,7 +67,7 @@ def matcher(sortOrder=SORT_ORDER, errorFunctions=ERROR_FUNCTIONS, outDir="./"):
                 return False
 
         # Use error functions
-        if (key in ['Age','d18O','Pb','Sr','DeathYr']):
+        if (key in errorFunctions.keys()):
             safe_dict['x'] = float(skel[key])
             delta = abs(float(eval(errorFunctions[key],{"__builtins__":None},safe_dict)))
 
@@ -81,8 +84,8 @@ def matcher(sortOrder=SORT_ORDER, errorFunctions=ERROR_FUNCTIONS, outDir="./"):
         return (abs(float(skel[key]) - float(record[key])) > delta)
     
     # Input data filenames
-    skeletonDataName = "skeleton-list.csv"
-    patientDataName = "patient-list.csv"
+    skeletonDataName = individualInput
+    patientDataName = recordInput
 
     # Initialize dict lists
     skeletonData = []
